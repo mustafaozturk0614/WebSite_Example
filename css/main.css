@@ -1,0 +1,267 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+
+}
+
+a {
+
+    text-decoration: none;
+    color: white;
+}
+
+header {
+    z-index: 100;
+    position: fixed;
+    width: 100%;
+
+}
+
+html {
+    font-family: "Open Sans", sans-serif;
+}
+
+/*Navbar*/
+
+.navbar {
+
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0.75rem;
+    height: 70px;
+
+
+}
+
+.navbar ul {
+
+    list-style: none;
+    display: flex;
+    align-items: center;
+
+}
+
+.navbar ul li a {
+
+    padding: 0.5rem;
+
+}
+
+.navbar ul li a:hover {
+    background-color: bisque;
+    border-radius: 4px;
+
+}
+
+.navbar-nav a {
+
+    color: white !important;
+}
+
+
+
+/* Main Image*/
+
+.mainImage {
+
+    height: 600px;
+    background-image: url("../img/simon-berger-aZjw7xI3QAA-unsplash.jpg");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+
+}
+
+.mainImageInfo {
+    margin: 1rem 1rem;
+    padding: 0.5rem 0.5rem;
+    background-color: #ae81d288;
+
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+
+
+}
+
+.mainImageInfo button {
+    margin: 0.5rem auto;
+
+
+}
+
+.mainImageInfo h1 {
+    font-size: 1.5em;
+
+
+}
+
+.mainImageInfo p {
+    font-size: 1em;
+
+
+
+
+}
+
+@media (max-width:800px) {
+    .mainImageInfo {
+        margin: 1em 1em;
+        padding: 0.3rem 0.3rem;
+
+        background-blend-mode: color-dodge;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        justify-content: space-between;
+
+
+    }
+}
+
+
+/* About*/
+
+.about {
+    width: 50%;
+    height: 20%;
+    margin: 1rem auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about h1 {
+    padding-bottom: 1rem;
+    color: #336ea2;
+    font-size: 2rem;
+    font-weight: 800;
+
+
+
+
+}
+
+.aboutContent {
+    margin-bottom: 1rem;
+
+
+
+
+
+}
+
+/* İtems*/
+
+.items {
+
+    margin: 1rem 1rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+
+.item {
+    padding: 2rem;
+    margin: 2rem;
+    border: 0.5px solid rgba(0, 0, 0, 0.26);
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    width: 20rem;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: #3d5468 5px 3px 15px 3px;
+}
+
+.itemImage {
+
+    width: 200px;
+    height: 150px;
+    margin-bottom: 2rem;
+
+
+}
+
+.itemImage img {
+
+    width: 200px;
+    height: 150px;
+    border-radius: 20px;
+
+}
+
+.itemImage:hover {
+    transform: scale(1.3);
+    transition: 1s;
+    opacity: 0.8;
+
+}
+
+.itemInformation {
+    margin-bottom: 2rem;
+}
+
+.aboutContent {
+    margin-bottom: 1rem;
+
+
+
+
+
+}
+
+.card {
+
+    padding: 2rem 2rem;
+    margin: 2rem 2rem;
+    border-radius: 25px;
+
+    box-shadow: #3d5468 5px 3px 15px 3px;
+
+}
+
+
+/* Contact */
+/*footer*/
+
+#contact {
+    color: #fff;
+    padding: 1rem;
+}
+
+#contact .contact-form {
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+#contact .contact-form ul {
+    list-style-type: none;
+    display: flex;
+    margin-top: 1rem;
+    align-self: center;
+}
+
+#contact .contact-form ul li a {
+    padding: 1rem;
+    font-size: 2rem;
+}
+
+#contact .contact-form ul li a:hover {
+    opacity: 0.8;
+}
