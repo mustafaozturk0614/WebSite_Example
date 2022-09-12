@@ -1,0 +1,58 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+nav {
+
+    background-color: aqua;
+    height: 70px;
+    margin-bottom: 1rem;
+    text-align: center;
+
+}
+
+.allPage {
+    display: flex;
+    flex-direction: row;
+}
+
+.mainContent {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    background-color: cadetblue;
+    margin: 1rem;
+    flex: 7;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+.leftSide {
+    text-align: center;
+    background-color: bisque;
+    flex: 2;
+}
+
+.rightSide {
+    text-align: center;
+    background-color: crimson;
+    flex: 2;
+}
+
+.item {
+    margin: 1rem 0.5rem;
+    border: 1px solid black;
+    width: 30%;
+    height: 200px;
+    background-color: aliceblue;
+
+}
+
+.item:nth-child(odd) {
+    background-color: brown;
+}
