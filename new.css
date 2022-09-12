@@ -1,4 +1,58 @@
+/* NavBar... */
+
+
 .navbar ul li a {
 
     color: white;
+}
+
+
+/* About*/
+
+.about {
+    width: 50%;
+    height: 20%;
+    margin: 1rem auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about h1 {
+    padding-bottom: 1rem;
+    color: #336ea2;
+    font-size: 2rem;
+    font-weight: 800;
+
+}
+
+.aboutContent {
+    margin-bottom: 1rem;
+
+}
+
+.items {
+    /* display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center; */
+}
+
+.card {
+    width: 18rem;
+    padding: 2rem;
+    margin: 2rem;
+    border-radius: 25px;
+    box-shadow: #343d44 5px 3px 15px 3px;
+
+
+}
+
+.card img {
+
+    width: 100%;
+    height: 150px;
+    border-radius: 20px;
+
 }
